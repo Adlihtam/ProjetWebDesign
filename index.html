@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="store">
+<head>
+    <meta charset="UTF-8">
+    <title>League of Fun </title>
+    <script type="text/javascript" src="vendor/angular/angular.js"/>
+    </script/>
+    <script type="text/javascript" src="vendor/angular/angular-route.js"/>
+    </script/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/test.css"/>
+    <script type="text/javascript" src="js/app.js"/>
+    </script/>
+</head>
+<body>
+<!-- Logo -->
+<section id="logo"></section>
+<!-- Menu -->
+<section id="menu">
+    <nav>
+        <a href="#/champ" class="col-sm-3 tab"> Champ </a>
+        <a href="#/item" class="col-sm-3 tab"> Item </a>
+        <a href="#/map" class="col-sm-3 tab"> Carte </a>
+        <a href="#tournament" class="col-sm-3 tab"> Tournoi </a>
+    </nav>
+</section>
+<ng-view>
+
+</ng-view>
+</body>
+</html>

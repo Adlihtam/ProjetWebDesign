@@ -1,0 +1,29 @@
+ body{
+	color:#999999;
+    background-color: #cccccc;
+ }
+ 
+#logo{
+    background-image: url('../img/test.jpg ');
+    background-position: center center;
+    background-size :cover;
+    color:#000;
+    padding-bottom: 200px;
+}
+
+#menu{
+    background-color: #444444;
+    padding-bottom: 30px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.tab{
+    color:#ffffff;
+}
+
+.block{
+    border: 1px solid black;
+    color:black;
+}
+
