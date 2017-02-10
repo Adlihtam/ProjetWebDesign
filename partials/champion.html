@@ -1,9 +1,58 @@
+<!-- Menu Champ -->
+<section class="">
+    <span ng-repeat="chap in champions">
+        <a>{{chap.name}}</a>
+    </span>
+</section>
 
+<!-- Information -->
+<section class="col-sm-10 col-sm-offset-1 champBlock">
+    <div class="col-sm-3" style="padding-left:0">
+        <img class="img-responsive" src="img/champions/{{champ.imageChp}}" alt="Not Found" width="230px">
+    </div>
+
+    <div class="col-sm-9">
+        <!-- Name and Type -->
+        <div class="col-sm-6" style="text-align: center">
+            Name : {{champ.name}}
+        </div>
+        <div class="col-sm-6" style="text-align: center">
+            Type : {{champ.type}}
+        </div>
+        <!-- graphique à rajouter -->
+        <div>
+            {{champ.passive}}
+        </div>
+        <br>
+        <!-- Sorts -->
+        <div class="sort row" style="align-content: center">
+            <span class="col-sm-2">
+                <img class="img-responsive" src="img/champions/{{champ.imgPassive}}" alt="Not Found">
+            </span>
+            <span class="col-sm-2">
+                <img class="img-responsive" src="img/champions/{{champ.imgA}}" alt="Not Found">
+            </span>
+            <span class="col-sm-2">
+                <img class="img-responsive" src="img/champions/{{champ.imgZ}}" alt="Not Found">
+            </span>
+            <span class="col-sm-2">
+                <img class="img-responsive" src="img/champions/{{champ.imgE}}" alt="Not Found">
+            </span>
+            <span class="col-sm-2">
+                <img class="img-responsive" src="img/champions/{{champ.imgR}}" alt="Not Found">
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- History -->
+<section class="col-sm-10 col-sm-offset-1 champBlock">
+
+</section>
+
+<!--
 <section ng-controller="storeController as store">
     <div ng-repeat="product in store.products" >
         <div>{{product.name}}</div>
     </div>
-</section>
-<div class="block col-sm-10 col-sm-offset-1">
-
-</div>
+</section> -->

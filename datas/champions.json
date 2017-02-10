@@ -1,7 +1,7 @@
 [
   {
     "name"        : "Aatrox",
-    "imageChp"    : "aatrox/chp.pnj",
+    "imageChp"    : "aatrox/chp.jpg",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 80,
@@ -9,25 +9,25 @@
     "difficulty"  : 40,
     "NameP"       : "Puits de Sang",
     "passive"     : "PASSIVE :  Les coûts en PV des compétences d'Aatrox chargent Puits de Sang, jusqu'à un maximum de 105 - 870 PV.\n La charge de Puits de Sang diminue de 2% chaque seconde si Aatrox n'est pas en combat depuis au moins 5 secondes. Aatrox augmente sa vitesse d'attaque de 0.3 - 0.55% pour chaque 1% de charge de Puits de Sang, jusqu'à un maximum de 30 - 55% de vitesse d'attaque.\n S'il subit des dégâts mortels, Aatrox se purge de tous les effets de contrôle de foule, entre en stase et récupère des PV équivalents à 36.75 - 304.5 (+100% de la charge de Puits de Sang) en 3 secondes, jusqu'à un maximum de 141.75 - 1174.5 PV.",
-    "imgPassive"  : "aatrox/P.pnj",
+    "imgPassive"  : "aatrox/P.png",
     "NameA"       : "Vol Obscur",
     "A"           : "ACTIVE :  Aatrox fonce vers la zone ciblée, infligeant des dégâts physiques aux unités ennemies dans la zone et envoyant dans les airs les unités ennemies dans le centre de la zone pendant 1 seconde.",
-    "imgA"        : "aatrox/A.pnj",
+    "imgA"        : "aatrox/A.png",
     "NameZ"       : "Choc Vital",
     "Z"           : "ACTIVÉE :  Toutes les 3 attaques de base, Aatrox perd des PV et inflige des dégâts physiques supplémentaires à l'impact.\n DÉSACTIVÉE :  Toutes les 3 attaques de base, Aatrox récupère des PV. Si Aatrox possède moins de 50% de ses PV, le soin de Choc Vital est augmenté de 200%.",
-    "imgZ"        : "aatrox/Z.pnj",
+    "imgZ"        : "aatrox/Z.png",
     "NameE"       : "Lame du Tourment",
     "E"           : "ACTIVE :  Aatrox lance une vague d'énergie dans la direction ciblée, infligeant des dégâts magiques aux unités ennemies traversés et les ralentissant de 40%.",
-    "imgE"        : "aatrox/E.pnj",
+    "imgE"        : "aatrox/E.png",
     "NameR"       : "Massacre",
     "R"           : "ACTIVE :  Aatrox aspire le sang de ses ennemis autour de lui, infligeant des dégâts magiques aux champions ennemis proches.\n Massacre augmente la charge de Puits de Sang de 20% pour chaque champion ennemi touché. Après Massacre, Aatrox augmente sa vitesse d'attaque et sa portée d'attaque pendant 12 secondes.",
-    "imgR"        : "aatrox/R.pnj",
+    "imgR"        : "aatrox/R.png",
     "history"     : "text/aatrox.txt"
   },
 
   {
     "name"        : "Ahri",
-    "imageChp"    : "ahri/chp.pnj",
+    "imageChp"    : "ahri/chp.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 30,
@@ -53,7 +53,7 @@
 
   {
     "name"        : "Akali",
-    "imageChp"    : "akali/chp.pnj",
+    "imageChp"    : "akali/chp.png",
     "type"        : "Assasin",
     "defense"     : 30,
     "attack"      : 50,
@@ -79,7 +79,7 @@
 
   {
     "name"        : "Alistar",
-    "imageChp"    : "alistar/chp.pnj",
+    "imageChp"    : "alistar/chp.png",
     "type"        : "Tank",
     "defense"     : 90,
     "attack"      : 50,
@@ -105,7 +105,7 @@
 
   {
     "name"        : "Amumu",
-    "imageChp"    : "amumu/chp.pnj",
+    "imageChp"    : "amumu/chp.png",
     "type"        : "Tank",
     "defense"     : 60,
     "attack"      : 20,
@@ -131,7 +131,7 @@
 
   {
     "name"        : "Anivia",
-    "imageChp"    : "anivia/chp.pnj",
+    "imageChp"    : "anivia/chp.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 10,
@@ -157,7 +157,7 @@
 
   {
     "name"        : "Annie",
-    "imageChp"    : "annie/chp.pnj",
+    "imageChp"    : "annie/chp.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -183,7 +183,7 @@
 
   {
     "name"        : "Ashe",
-    "imageChp"    : "ashe/chp.pnj",
+    "imageChp"    : "ashe/chp.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 70,
@@ -209,7 +209,7 @@
 
   {
     "name"        : "Aurélion Sol",
-    "imageChp"    : "aurelionSol/chp.pnj",
+    "imageChp"    : "aurelionSol/chp.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -235,7 +235,7 @@
 
   {
     "name"        : "Azir",
-    "imageChp"    : "azir/chp.pnj",
+    "imageChp"    : "azir/chp.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 60,
@@ -261,7 +261,7 @@
 
   {
     "name"        : "Bard",
-    "imageChp"    : "bard/chp.pnj",
+    "imageChp"    : "bard/chp.png",
     "type"        : "Support",
     "defense"     : 40,
     "attack"      : 40,
@@ -287,7 +287,7 @@
 
   {
     "name"        : "Blitzcrank",
-    "imageChp"    : "blitzcrank/chp.pnj",
+    "imageChp"    : "blitzcrank/chp.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 40,
@@ -313,7 +313,7 @@
 
   {
     "name"        : "Brand",
-    "imageChp"    : "brand/chp.pnj",
+    "imageChp"    : "brand/chp.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -339,7 +339,7 @@
 
   {
     "name"        : "Braum",
-    "imageChp"    : "braum/chp.pnj",
+    "imageChp"    : "braum/chp.png",
     "type"        : "Support",
     "defense"     : 90,
     "attack"      : 30,
@@ -365,7 +365,7 @@
 
   {
     "name"        : "Caitlyn",
-    "imageChp"    : "caitlyn/chp.pnj",
+    "imageChp"    : "caitlyn/chp.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
