@@ -2,6 +2,7 @@
   {
     "name"        : "Aatrox",
     "imageChp"    : "aatrox/chp.jpg",
+    "imageS"      : "aatrox/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 80,
@@ -28,6 +29,7 @@
   {
     "name"        : "Ahri",
     "imageChp"    : "ahri/chp.png",
+    "imageS"      : "ahri/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 30,
@@ -54,6 +56,7 @@
   {
     "name"        : "Akali",
     "imageChp"    : "akali/chp.png",
+    "imageS"      : "akali/Square.png",
     "type"        : "Assasin",
     "defense"     : 30,
     "attack"      : 50,
@@ -80,6 +83,7 @@
   {
     "name"        : "Alistar",
     "imageChp"    : "alistar/chp.png",
+    "imageS"      : "alistar/Square.png",
     "type"        : "Tank",
     "defense"     : 90,
     "attack"      : 50,
@@ -106,6 +110,7 @@
   {
     "name"        : "Amumu",
     "imageChp"    : "amumu/chp.png",
+    "imageS"      : "amumu/Square.png",
     "type"        : "Tank",
     "defense"     : 60,
     "attack"      : 20,
@@ -132,6 +137,7 @@
   {
     "name"        : "Anivia",
     "imageChp"    : "anivia/chp.png",
+    "imageS"      : "anivia/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 10,
@@ -158,6 +164,7 @@
   {
     "name"        : "Annie",
     "imageChp"    : "annie/chp.png",
+    "imageS"      : "annie/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -184,6 +191,7 @@
   {
     "name"        : "Ashe",
     "imageChp"    : "ashe/chp.png",
+    "imageS"      : "ashe/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 70,
@@ -210,6 +218,7 @@
   {
     "name"        : "Aurélion Sol",
     "imageChp"    : "aurelionSol/chp.png",
+    "imageS"      : "aurelionSol/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -236,6 +245,7 @@
   {
     "name"        : "Azir",
     "imageChp"    : "azir/chp.png",
+    "imageS"      : "azir/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 60,
@@ -262,6 +272,7 @@
   {
     "name"        : "Bard",
     "imageChp"    : "bard/chp.png",
+    "imageS"      : "bard/Square.png",
     "type"        : "Support",
     "defense"     : 40,
     "attack"      : 40,
@@ -288,6 +299,7 @@
   {
     "name"        : "Blitzcrank",
     "imageChp"    : "blitzcrank/chp.png",
+    "imageS"      : "blitzcrank/Square.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 40,
@@ -314,6 +326,7 @@
   {
     "name"        : "Brand",
     "imageChp"    : "brand/chp.png",
+    "imageS"      : "brand/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -340,6 +353,7 @@
   {
     "name"        : "Braum",
     "imageChp"    : "braum/chp.png",
+    "imageS"      : "braum/Square.png",
     "type"        : "Support",
     "defense"     : 90,
     "attack"      : 30,
@@ -366,6 +380,7 @@
   {
     "name"        : "Caitlyn",
     "imageChp"    : "caitlyn/chp.png",
+    "imageS"      : "caitlyn/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
@@ -392,6 +407,7 @@
   {
     "name"        : "Camille",
     "imageChp"    : "camille/chp.png",
+    "imageS"      : "camille/Square.png",
     "type"        : "Tireur",
     "defense"     : 60,
     "attack"      : 80,
@@ -418,6 +434,7 @@
   {
     "name"        : "Cassiopeia",
     "imageChp"    : "cassiopeia/chp.png",
+    "imageS"      : "cassiopeia/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -444,6 +461,7 @@
   {
     "name"        : "Cho'Gath",
     "imageChp"    : "chogath/chp.png",
+    "imageS"      : "chogath/Square.png",
     "type"        : "Tank",
     "defense"     : 70,
     "attack"      : 30,
@@ -470,6 +488,7 @@
   {
     "name"        : "Darius",
     "imageChp"    : "darius/chp.png",
+    "imageS"      : "darius/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 90,
@@ -496,6 +515,7 @@
   {
     "name"        : "Diana",
     "imageChp"    : "diana/chp.png",
+    "imageS"      : "diana/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 70,
@@ -522,6 +542,7 @@
   {
     "name"        : "Draven",
     "imageChp"    : "draven/chp.png",
+    "imageS"      : "draven/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 90,
@@ -548,6 +569,7 @@
   {
     "name"        : "Dr Mundo",
     "imageChp"    : "drmundo/chp.png",
+    "imageS"      : "drmundo/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 50,
@@ -574,6 +596,7 @@
   {
     "name"        : "Ekko",
     "imageChp"    : "ekko/chp.png",
+    "imageS"      : "ekko/Square.png",
     "type"        : "Assassin",
     "defense"     : 30,
     "attack"      : 50,
@@ -600,6 +623,7 @@
   {
     "name"        : "Elise",
     "imageChp"    : "elise/chp.png",
+    "imageS"      : "elise/Square.png",
     "type"        : "Mage",
     "defense"     : 50,
     "attack"      : 60,
@@ -626,6 +650,7 @@
   {
     "name"        : "Evelynn",
     "imageChp"    : "evelynn/chp.png",
+    "imageS"      : "evelynn/Square.png",
     "type"        : "Assassin",
     "defense"     : 20,
     "attack"      : 40,
@@ -652,6 +677,7 @@
   {
     "name"        : "Ezreal",
     "imageChp"    : "ezreal/chp.png",
+    "imageS"      : "ezreal/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 70,
@@ -678,6 +704,7 @@
   {
     "name"        : "Fiddlesticks",
     "imageChp"    : "fiddlesticks/chp.png",
+    "imageS"      : "fiddlesticks/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -704,6 +731,7 @@
   {
     "name"        : "Fiora",
     "imageChp"    : "fiora/chp.png",
+    "imageS"      : "fiora/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 100,
@@ -730,6 +758,7 @@
   {
     "name"        : "Fizz",
     "imageChp"    : "fizz/chp.png",
+    "imageS"      : "fizz/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 60,
@@ -756,6 +785,7 @@
   {
     "name"        : "Galio",
     "imageChp"    : "galio/chp.png",
+    "imageS"      : "galio/Square.png",
     "type"        : "Tank",
     "defense"     : 70,
     "attack"      : 30,
@@ -782,6 +812,7 @@
   {
     "name"        : "Gangplank",
     "imageChp"    : "gangplank/chp.png",
+    "imageS"      : "gangplank/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 70,
@@ -808,6 +839,7 @@
   {
     "name"        : "Garen",
     "imageChp"    : "garen/chp.png",
+    "imageS"      : "garen/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 70,
@@ -834,6 +866,7 @@
   {
     "name"        : "Gnar",
     "imageChp"    : "gnar/chp.png",
+    "imageS"      : "gnar/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 60,
@@ -860,6 +893,7 @@
   {
     "name"        : "Gragas",
     "imageChp"    : "gragas/chp.png",
+    "imageS"      : "gragas/Square.png",
     "type"        : "Mage",
     "defense"     : 60,
     "attack"      : 40,
@@ -886,6 +920,7 @@
   {
     "name"        : "Graves",
     "imageChp"    : "graves/chp.png",
+    "imageS"      : "graves/Square.png",
     "type"        : "Tireur",
     "defense"     : 50,
     "attack"      : 80,
@@ -912,6 +947,7 @@
   {
     "name"        : "Hecarim",
     "imageChp"    : "hecarim/chp.png",
+    "imageS"      : "hecarim/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 80,
@@ -938,6 +974,7 @@
   {
     "name"        : "Heimerdinger",
     "imageChp"    : "heimerdinger/chp.png",
+    "imageS"      : "heimerdinger/Square.png",
     "type"        : "Mage",
     "defense"     : 60,
     "attack"      : 20,
@@ -964,6 +1001,7 @@
   {
     "name"        : "Illaoi",
     "imageChp"    : "illaoi/chp.png",
+    "imageS"      : "illaoi/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 80,
@@ -988,8 +1026,9 @@
   },
 
   {
-    "name"        : "Irélia",
+    "name"        : "Irelia",
     "imageChp"    : "irelia/chp.png",
+    "imageS"      : "irelia/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 70,
@@ -1016,6 +1055,7 @@
   {
     "name"        : "Ivern",
     "imageChp"    : "ivern/chp.png",
+    "imageS"      : "ivern/Square.png",
     "type"        : "Tank",
     "defense"     : 50,
     "attack"      : 30,
@@ -1042,6 +1082,7 @@
   {
     "name"        : "Janna",
     "imageChp"    : "janna/chp.png",
+    "imageS"      : "janna/Square.png",
     "type"        : "Support",
     "defense"     : 50,
     "attack"      : 30,
@@ -1068,6 +1109,7 @@
   {
     "name"        : "Jarvan IV",
     "imageChp"    : "jarvanIV/chp.png",
+    "imageS"      : "jarvanIV/Square.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 60,
@@ -1094,6 +1136,7 @@
   {
     "name"        : "Jax",
     "imageChp"    : "jax/chp.png",
+    "imageS"      : "jax/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 70,
@@ -1120,6 +1163,7 @@
   {
     "name"        : "Jayce",
     "imageChp"    : "jayce/chp.png",
+    "imageS"      : "jayce/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 80,
@@ -1146,6 +1190,7 @@
   {
     "name"        : "Jhin",
     "imageChp"    : "jhin/chp.png",
+    "imageS"      : "jhin/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 100,
@@ -1172,6 +1217,7 @@
   {
     "name"        : "Jinx",
     "imageChp"    : "jinx/chp.png",
+    "imageS"      : "jinx/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 90,
@@ -1198,6 +1244,7 @@
   {
     "name"        : "Kalista",
     "imageChp"    : "kalista/chp.png",
+    "imageS"      : "kalista/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
@@ -1224,6 +1271,7 @@
   {
     "name"        : "Karma",
     "imageChp"    : "karma/chp.png",
+    "imageS"      : "karma/Square.png",
     "type"        : "Mage",
     "defense"     : 70,
     "attack"      : 10,
@@ -1250,6 +1298,7 @@
   {
     "name"        : "Karthus",
     "imageChp"    : "karthus/chp.png",
+    "imageS"      : "karthus/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -1276,6 +1325,7 @@
   {
     "name"        : "Kassadin",
     "imageChp"    : "kassadin/chp.png",
+    "imageS"      : "kassadin/Square.png",
     "type"        : "Assassin",
     "defense"     : 50,
     "attack"      : 30,
@@ -1302,6 +1352,7 @@
   {
     "name"        : "Katarina",
     "imageChp"    : "katarina/chp.png",
+    "imageS"      : "katarina/Square.png",
     "type"        : "Assassin",
     "defense"     : 30,
     "attack"      : 40,
@@ -1328,6 +1379,7 @@
   {
     "name"        : "Kayle",
     "imageChp"    : "kayle/chp.png",
+    "imageS"      : "kayle/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 60,
@@ -1354,6 +1406,7 @@
   {
     "name"        : "Kennen",
     "imageChp"    : "kennen/chp.png",
+    "imageS"      : "kennen/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 60,
@@ -1380,6 +1433,7 @@
   {
     "name"        : "Kha'Zix",
     "imageChp"    : "khaZix/chp.png",
+    "imageS"      : "khaZix/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 90,
@@ -1406,6 +1460,7 @@
   {
     "name"        : "Kindred",
     "imageChp"    : "kindred/chp.jpg",
+    "imageS"      : "kindred/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
@@ -1432,6 +1487,7 @@
   {
     "name"        : "Kled",
     "imageChp"    : "kled/chp.jpg",
+    "imageS"      : "kled/Square.png",
     "type"        : "Combattant",
     "defense"     : 20,
     "attack"      : 80,
@@ -1458,6 +1514,7 @@
   {
     "name"        : "Kog'Maw",
     "imageChp"    : "kogMaw/chp.jpg",
+    "imageS"      : "kogMaw/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
@@ -1484,6 +1541,7 @@
   {
     "name"        : "Le Blanc",
     "imageChp"    : "leBlanc/chp.jpg",
+    "imageS"      : "leBlanc/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 10,
@@ -1510,6 +1568,7 @@
   {
     "name"        : "Lee Sin",
     "imageChp"    : "leeSin/chp.jpg",
+    "imageS"      : "leeSin/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -1536,6 +1595,7 @@
   {
     "name"        : "Leona",
     "imageChp"    : "leona/chp.jpg",
+    "imageS"      : "leona/Square.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 30,
@@ -1562,6 +1622,7 @@
   {
     "name"        : "Lissandra",
     "imageChp"    : "lissandra/chp.jpg",
+    "imageS"      : "lissandra/Square.png",
     "type"        : "Mage",
     "defense"     : 50,
     "attack"      : 20,
@@ -1588,6 +1649,7 @@
   {
     "name"        : "Lucian",
     "imageChp"    : "lucian/chp.jpg",
+    "imageS"      : "lucian/Square.png",
     "type"        : "Tireur",
     "defense"     : 50,
     "attack"      : 80,
@@ -1614,6 +1676,7 @@
   {
     "name"        : "Lulu",
     "imageChp"    : "lulu/chp.jpg",
+    "imageS"      : "lulu/Square.png",
     "type"        : "Support",
     "defense"     : 50,
     "attack"      : 40,
@@ -1640,6 +1703,7 @@
   {
     "name"        : "Lux",
     "imageChp"    : "lux/chp.jpg",
+    "imageS"      : "lux/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 20,
@@ -1664,8 +1728,9 @@
   },
 
   {
-    "name"        : "Maître Yi",
+    "name"        : "Maitre Yi",
     "imageChp"    : "maitreYi/chp.jpg",
+    "imageS"      : "maitreYi/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 100,
@@ -1692,6 +1757,7 @@
   {
     "name"        : "Malphite",
     "imageChp"    : "malphite/chp.jpg",
+    "imageS"      : "malphite/Square.png",
     "type"        : "Tank",
     "defense"     : 90,
     "attack"      : 50,
@@ -1718,6 +1784,7 @@
   {
     "name"        : "Malzahar",
     "imageChp"    : "malzahar/chp.jpg",
+    "imageS"      : "malzahar/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -1744,6 +1811,7 @@
   {
     "name"        : "Maokai",
     "imageChp"    : "maokai/chp.jpg",
+    "imageS"      : "maokai/Square.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 30,
@@ -1770,6 +1838,7 @@
   {
     "name"        : "Miss Fortune",
     "imageChp"    : "missFortune/chp.jpg",
+    "imageS"      : "missFortune/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 80,
@@ -1796,6 +1865,7 @@
   {
     "name"        : "Mordekaiser",
     "imageChp"    : "mordekaiser/chp.jpg",
+    "imageS"      : "mordekaiser/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 40,
@@ -1822,6 +1892,7 @@
   {
     "name"        : "Morgana",
     "imageChp"    : "morgana/chp.jpg",
+    "imageS"      : "morgana/Square.png",
     "type"        : "Mage",
     "defense"     : 60,
     "attack"      : 10,
@@ -1848,6 +1919,7 @@
   {
     "name"        : "Nami",
     "imageChp"    : "nami/chp.jpg",
+    "imageS"      : "nami/Square.png",
     "type"        : "Support",
     "defense"     : 30,
     "attack"      : 40,
@@ -1874,6 +1946,7 @@
   {
     "name"        : "Nasus",
     "imageChp"    : "nasus/chp.jpg",
+    "imageS"      : "nasus/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 70,
@@ -1900,6 +1973,7 @@
   {
     "name"        : "Nautilus",
     "imageChp"    : "nautilus/chp.jpg",
+    "imageS"      : "nautilus/Square.png",
     "type"        : "Tank",
     "defense"     : 60,
     "attack"      : 40,
@@ -1926,6 +2000,7 @@
   {
     "name"        : "Nidalee",
     "imageChp"    : "nidalee/chp.jpg",
+    "imageS"      : "nidalee/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 50,
@@ -1952,6 +2027,7 @@
   {
     "name"        : "Nocturne",
     "imageChp"    : "nocturne/chp.jpg",
+    "imageS"      : "nocturne/Square.png",
     "type"        : "Assassin",
     "defense"     : 50,
     "attack"      : 90,
@@ -1978,6 +2054,7 @@
   {
     "name"        : "Nunu",
     "imageChp"    : "nunu/chp.jpg",
+    "imageS"      : "nunu/Square.png",
     "type"        : "Support",
     "defense"     : 60,
     "attack"      : 40,
@@ -2004,6 +2081,7 @@
   {
     "name"        : "Olaf",
     "imageChp"    : "olaf/chp.jpg",
+    "imageS"      : "olaf/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 90,
@@ -2030,6 +2108,7 @@
   {
     "name"        : "Orianna",
     "imageChp"    : "orianna/chp.jpg",
+    "imageS"      : "orianna/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 40,
@@ -2056,6 +2135,7 @@
   {
     "name"        : "Panthéon",
     "imageChp"    : "pantheon/chp.jpg",
+    "imageS"      : "pantheon/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 90,
@@ -2082,6 +2162,7 @@
   {
     "name"        : "Poppy",
     "imageChp"    : "poppy/chp.jpg",
+    "imageS"      : "poppy/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 60,
@@ -2108,6 +2189,7 @@
   {
     "name"        : "Quinn",
     "imageChp"    : "quinn/chp.jpg",
+    "imageS"      : "quinn/Square.png",
     "type"        : "Tireur",
     "defense"     : 40,
     "attack"      : 90,
@@ -2134,6 +2216,7 @@
   {
     "name"        : "Rammus",
     "imageChp"    : "rammus/chp.jpg",
+    "imageS"      : "rammus/Square.png",
     "type"        : "Tank",
     "defense"     : 100,
     "attack"      : 40,
@@ -2160,6 +2243,7 @@
   {
     "name"        : "Rek'Sai",
     "imageChp"    : "rekSai/chp.jpg",
+    "imageS"      : "rekSai/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -2186,6 +2270,7 @@
   {
     "name"        : "Renekton",
     "imageChp"    : "renekton/chp.jpg",
+    "imageS"      : "renekton/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -2212,6 +2297,7 @@
   {
     "name"        : "Rengar",
     "imageChp"    : "rengar/chp.jpg",
+    "imageS"      : "rengar/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 70,
@@ -2238,6 +2324,7 @@
   {
     "name"        : "Riven",
     "imageChp"    : "riven/chp.jpg",
+    "imageS"      : "riven/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -2264,6 +2351,7 @@
   {
     "name"        : "Rumble",
     "imageChp"    : "rumble/chp.jpg",
+    "imageS"      : "rumble/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 30,
@@ -2290,6 +2378,7 @@
   {
     "name"        : "Ryze",
     "imageChp"    : "ryze/chp.jpg",
+    "imageS"      : "ryze/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -2316,6 +2405,7 @@
   {
     "name"        : "Sejuani",
     "imageChp"    : "sejuani/chp.jpg",
+    "imageS"      : "sejuani/Square.png",
     "type"        : "Tank",
     "defense"     : 70,
     "attack"      : 50,
@@ -2342,6 +2432,7 @@
   {
     "name"        : "Shaco",
     "imageChp"    : "shaco/chp.jpg",
+    "imageS"      : "shaco/Square.png",
     "type"        : "Assassin",
     "defense"     : 40,
     "attack"      : 80,
@@ -2368,6 +2459,7 @@
   {
     "name"        : "Shen",
     "imageChp"    : "shen/chp.jpg",
+    "imageS"      : "shen/Square.png",
     "type"        : "Tank",
     "defense"     : 90,
     "attack"      : 30,
@@ -2394,6 +2486,7 @@
   {
     "name"        : "Shyvana",
     "imageChp"    : "shyvana/chp.jpg",
+    "imageS"      : "shyvana/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 80,
@@ -2420,6 +2513,7 @@
   {
     "name"        : "Singed",
     "imageChp"    : "singed/chp.jpg",
+    "imageS"      : "singed/Square.png",
     "type"        : "Tank",
     "defense"     : 80,
     "attack"      : 40,
@@ -2446,6 +2540,7 @@
   {
     "name"        : "Sion",
     "imageChp"    : "sion/chp.jpg",
+    "imageS"      : "sion/Square.png",
     "type"        : "Combattant",
     "defense"     : 90,
     "attack"      : 50,
@@ -2472,6 +2567,7 @@
   {
     "name"        : "Sivir",
     "imageChp"    : "sivir/chp.jpg",
+    "imageS"      : "sivir/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 90,
@@ -2498,6 +2594,7 @@
   {
     "name"        : "Skarner",
     "imageChp"    : "skarner/chp.jpg",
+    "imageS"      : "skarner/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 70,
@@ -2524,6 +2621,7 @@
   {
     "name"        : "Sona",
     "imageChp"    : "sona/chp.jpg",
+    "imageS"      : "sona/Square.png",
     "type"        : "Support",
     "defense"     : 20,
     "attack"      : 50,
@@ -2550,6 +2648,7 @@
   {
     "name"        : "Soraka",
     "imageChp"    : "soraka/chp.jpg",
+    "imageS"      : "soraka/Square.png",
     "type"        : "Support",
     "defense"     : 50,
     "attack"      : 20,
@@ -2576,6 +2675,7 @@
   {
     "name"        : "Swain",
     "imageChp"    : "swain/chp.jpg",
+    "imageS"      : "swain/Square.png",
     "type"        : "Mage",
     "defense"     : 60,
     "attack"      : 20,
@@ -2602,6 +2702,7 @@
   {
     "name"        : "Syndra",
     "imageChp"    : "syndra/chp.jpg",
+    "imageS"      : "syndra/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 20,
@@ -2628,6 +2729,7 @@
   {
     "name"        : "Tahm Kench",
     "imageChp"    : "tahmKench/chp.jpg",
+    "imageS"      : "tahmKench/Square.png",
     "type"        : "Tank",
     "defense"     : 90,
     "attack"      : 30,
@@ -2654,6 +2756,7 @@
   {
     "name"        : "Taliyah",
     "imageChp"    : "taliyah/chp.jpg",
+    "imageS"      : "taliyah/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 10,
@@ -2680,6 +2783,7 @@
   {
     "name"        : "Talon",
     "imageChp"    : "talon/chp.jpg",
+    "imageS"      : "talon/Square.png",
     "type"        : "Assassin",
     "defense"     : 30,
     "attack"      : 90,
@@ -2706,6 +2810,7 @@
   {
     "name"        : "Taric",
     "imageChp"    : "taric/chp.jpg",
+    "imageS"      : "taric/Square.png",
     "type"        : "Support",
     "defense"     : 80,
     "attack"      : 40,
@@ -2732,6 +2837,7 @@
   {
     "name"        : "Teemo",
     "imageChp"    : "teemo/chp.jpg",
+    "imageS"      : "teemo/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 50,
@@ -2758,6 +2864,7 @@
   {
     "name"        : "Thresh",
     "imageChp"    : "thresh/chp.jpg",
+    "imageS"      : "thresh/Square.png",
     "type"        : "Support",
     "defense"     : 60,
     "attack"      : 50,
@@ -2784,6 +2891,7 @@
   {
     "name"        : "Tristana",
     "imageChp"    : "tristana/chp.jpg",
+    "imageS"      : "tristana/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 90,
@@ -2810,6 +2918,7 @@
   {
     "name"        : "Trundle",
     "imageChp"    : "trundle/chp.jpg",
+    "imageS"      : "trundle/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 70,
@@ -2836,6 +2945,7 @@
   {
     "name"        : "Tryndamère",
     "imageChp"    : "tryndamere/chp.jpg",
+    "imageS"      : "tryndamere/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 100,
@@ -2862,6 +2972,7 @@
   {
     "name"        : "Twisted Fate",
     "imageChp"    : "twistedFate/chp.jpg",
+    "imageS"      : "twistedFate/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 60,
@@ -2888,6 +2999,7 @@
   {
     "name"        : "Twitch",
     "imageChp"    : "twitch/chp.jpg",
+    "imageS"      : "twitch/Square.png",
     "type"        : "Tireur",
     "defense"     : 20,
     "attack"      : 90,
@@ -2914,6 +3026,7 @@
   {
     "name"        : "Udyr",
     "imageChp"    : "udyr/chp.jpg",
+    "imageS"      : "udyr/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 80,
@@ -2940,6 +3053,7 @@
   {
     "name"        : "Urgot",
     "imageChp"    : "urgot/chp.jpg",
+    "imageS"      : "urgot/Square.png",
     "type"        : "Tireur",
     "defense"     : 50,
     "attack"      : 80,
@@ -2966,6 +3080,7 @@
   {
     "name"        : "Varus",
     "imageChp"    : "varus/chp.jpg",
+    "imageS"      : "varus/Square.png",
     "type"        : "Tireur",
     "defense"     : 30,
     "attack"      : 70,
@@ -2992,6 +3107,7 @@
   {
     "name"        : "Vayne",
     "imageChp"    : "vayne/chp.jpg",
+    "imageS"      : "vayne/Square.png",
     "type"        : "Tireur",
     "defense"     : 10,
     "attack"      : 100,
@@ -3018,6 +3134,7 @@
   {
     "name"        : "Veigar",
     "imageChp"    : "veigar/chp.jpg",
+    "imageS"      : "veigar/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -3044,6 +3161,7 @@
   {
     "name"        : "Vel'Koz",
     "imageChp"    : "velKoz/chp.jpg",
+    "imageS"      : "velKoz/Square.png",
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
@@ -3070,6 +3188,7 @@
   {
     "name"        : "Vi",
     "imageChp"    : "vi/chp.jpg",
+    "imageS"      : "vi/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -3096,6 +3215,7 @@
   {
     "name"        : "Viktor",
     "imageChp"    : "viktor/chp.jpg",
+    "imageS"      : "viktor/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 20,
@@ -3122,6 +3242,7 @@
   {
     "name"        : "Vladimir",
     "imageChp"    : "vladimir/chp.jpg",
+    "imageS"      : "vladimir/Square.png",
     "type"        : "Mage",
     "defense"     : 60,
     "attack"      : 20,
@@ -3148,6 +3269,7 @@
   {
     "name"        : "Volibear",
     "imageChp"    : "volibear/chp.jpg",
+    "imageS"      : "volibear/Square.png",
     "type"        : "Combattant",
     "defense"     : 70,
     "attack"      : 70,
@@ -3174,6 +3296,7 @@
   {
     "name"        : "Warwick",
     "imageChp"    : "warwick/chp.jpg",
+    "imageS"      : "warwick/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 70,
@@ -3200,6 +3323,7 @@
   {
     "name"        : "Wukon",
     "imageChp"    : "wukong/chp.jpg",
+    "imageS"      : "wukong/Square.png",
     "type"        : "Combattant",
     "defense"     : 50,
     "attack"      : 80,
@@ -3226,6 +3350,7 @@
   {
     "name"        : "Xerath",
     "imageChp"    : "xerath/chp.jpg",
+    "imageS"      : "xerath/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 10,
@@ -3252,6 +3377,7 @@
   {
     "name"        : "Xin Zhao",
     "imageChp"    : "xinZhao/chp.jpg",
+    "imageS"      : "xinZhao/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 80,
@@ -3278,6 +3404,7 @@
   {
     "name"        : "Yasuo",
     "imageChp"    : "yasuo/chp.jpg",
+    "imageS"      : "yasuo/Square.png",
     "type"        : "Combattant",
     "defense"     : 40,
     "attack"      : 80,
@@ -3304,6 +3431,7 @@
   {
     "name"        : "Yorick",
     "imageChp"    : "yorick/chp.jpg",
+    "imageS"      : "yorick/Square.png",
     "type"        : "Combattant",
     "defense"     : 60,
     "attack"      : 60,
@@ -3330,6 +3458,7 @@
   {
     "name"        : "Zac",
     "imageChp"    : "zac/chp.jpg",
+    "imageS"      : "zac/Square.png",
     "type"        : "Tank",
     "defense"     : 70,
     "attack"      : 30,
@@ -3356,6 +3485,7 @@
   {
     "name"        : "Zed",
     "imageChp"    : "zed/chp.jpg",
+    "imageS"      : "zed/Square.png",
     "type"        : "Assassin",
     "defense"     : 20,
     "attack"      : 90,
@@ -3382,6 +3512,7 @@
   {
     "name"        : "Ziggs",
     "imageChp"    : "ziggs/chp.jpg",
+    "imageS"      : "ziggs/Square.png",
     "type"        : "Mage",
     "defense"     : 40,
     "attack"      : 20,
@@ -3408,6 +3539,7 @@
   {
     "name"        : "Zilean",
     "imageChp"    : "zilean/chp.jpg",
+    "imageS"      : "zilean/Square.png",
     "type"        : "Support",
     "defense"     : 50,
     "attack"      : 20,
@@ -3434,6 +3566,7 @@
   {
     "name"        : "Zyra",
     "imageChp"    : "zyra/chp.jpg",
+    "imageS"      : "zyra/Square.png",
     "type"        : "Mage",
     "defense"     : 30,
     "attack"      : 40,
