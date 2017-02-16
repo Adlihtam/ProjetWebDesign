@@ -1,7 +1,8 @@
 <!-- Menu Champ -->
 <section class="">
     <span ng-repeat="chap in champions">
-        <a href="#/champ/{{chap.name}}"> <img class="img-responsive" src="img/champions/{{chap.imageS}}" alt="" style="float:left;margin:2px;border-width:0"/> </a>
+        <a href="#/champ/{{chap.name}}"> <img class="img-responsive" src="img/champions/{{chap.imageS}}" alt=""
+                                              style="float:left;margin:2px;border-width:0"/> </a>
     </span>
 </section>
 
@@ -21,26 +22,36 @@
         </div>
         <!-- graphique à rajouter -->
         <div>
-            {{champ.passive}}
+
         </div>
         <br>
 
         <!-- Sorts -->
         <div class="sort row" style="align-content: center">
             <span class="col-sm-2">
+                <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgPassive}}" alt="Not Found">
+                <span>{{champ.passive}}</span></a>
             </span>
             <span class="col-sm-2">
+                <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgA}}" alt="Not Found">
+                    <span>{{champ.SpellA}}</span></a>
             </span>
             <span class="col-sm-2">
+                <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgZ}}" alt="Not Found">
+                    <span>{{champ.SpellZ}}</span></a>
             </span>
             <span class="col-sm-2">
+                <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgE}}" alt="Not Found">
+                    <span>{{champ.SpellE}}</span></a>
             </span>
             <span class="col-sm-2">
+                <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgR}}" alt="Not Found">
+                    <span>{{champ.SpellR}}</span></a>
             </span>
         </div>
     </div>
@@ -51,7 +62,7 @@
 
     <div>Histoire de {{champ.name}}</div>
 
-    <IFRAME src="{{champ.history}}" class="col-sm-12" marginwidth="" height=400 scrolling=auto frameborder=0 > </IFRAME>
+    <IFRAME src="{{champ.history}}" class="col-sm-12" marginwidth="" height=400 scrolling=auto frameborder=0></IFRAME>
 
 </section>
 
