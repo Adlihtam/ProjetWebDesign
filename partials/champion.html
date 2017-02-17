@@ -1,7 +1,7 @@
 <!-- Menu Champ -->
 <section class="">
     <span ng-repeat="chap in champions">
-        <a href="#/champ/{{chap.name}}"> <img class="img-responsive" src="img/champions/{{chap.imageS}}" alt=""
+        <a href="#/champ/{{chap.name}}"> <img class="img-responsive" src="img/champions/{{chap.imageS}}" alt="Not Found"
                                               style="float:left;margin:2px;border-width:0"/> </a>
     </span>
 </section>
@@ -20,14 +20,23 @@
         <div class="col-sm-6" style="text-align: center">
             Type : {{champ.type}}
         </div>
+        <br><br>
         <!-- graphique à rajouter -->
-        <div>
-
+        Defense<div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{champ.defense}}%;" aria-valuenow={{champ.defense}} aria-valuemin="0" aria-valuemax="100"></div>
         </div>
-        <br>
+        Attack<div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{champ.attack}}%;" aria-valuenow={{champ.attack}} aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        Power<div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{champ.power}}%;" aria-valuenow={{champ.power}} aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        Difficulty<div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{champ.difficulty}}%;" aria-valuenow="{{champ.difficulty}}" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
 
         <!-- Sorts -->
-        <div class="sort row" style="align-content: center">
+        <div class="sort row" style="align-content: center" class="col-sm-2">
             <span class="col-sm-2">
                 <a class="info">
                 <img class="img-responsive" src="img/champions/{{champ.imgPassive}}" alt="Not Found">

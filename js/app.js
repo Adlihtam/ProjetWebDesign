@@ -57,3 +57,40 @@ app.controller("searchChamp", [
         });
     }
 ]);
+
+
+/*
+var info = document.getElementById("info");
+var show0 = info.getAttribute("data-defense");
+var show1 = info.getAttribute("data-attack");
+var show2 = info.getAttribute("data-power");
+var show3 = info.getAttribute("data-difficulty");
+
+
+google.charts.load('current', {'packages':['bar']});
+google.charts.setOnLoadCallback(drawStuff);
+
+function drawStuff() {
+    var data = new google.visualization.arrayToDataTable([
+        ['Name', 'Percentage'],
+        ["Defense", info.setAttribute("data-defense", show0)],
+        ["Attack", info.setAttribute("data-attack", show1)],
+        ["Power", info.setAttribute("data-power", show2)],
+        ["Difficulty", info.setAttribute("data-difficulty", show3)]
+    ]);
+
+    var options = {
+        bars: 'horizontal', // Required for Material Bar Charts.
+        axes: {
+            x: {
+                0: { side: 'top', label: 'Percentage'} // Top x-axis.
+            }
+        },
+        bar: { groupWidth: "100%" },
+        tooltip: {isHtml: true}
+    };
+
+    var chart = new google.charts.Bar(document.getElementById('info'));
+    chart.draw(data, options);
+};
+*/
