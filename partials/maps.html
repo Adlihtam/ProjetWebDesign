@@ -1,0 +1,17 @@
+<!-- 4 types de cartes différentes Choisir sur quelle carte on veut les infos-->
+
+<section class="" style="text-align: center">
+    <span ng-repeat="carte in cartes">
+        <a href="#/maps/{{carte.name}}" class="col-sm-3">
+            <font size="5"> {{carte.name}} </font>
+        </a>
+    </span>
+</section>
+
+<section class="col-sm-10 col-sm-offset-1 champBlock" style="text-align: center">
+    <font size="8"> {{carte.name}} </font>
+    <div> {{carte.smalldescription}}</div>
+    <br><br>
+    <center> <img src="img/maps/{{carte.imagemaps}}"> </center>
+
+</section>

@@ -1,5 +1,5 @@
 <!-- Menu Champ -->
-<section class="">
+<section class="" >
     <span ng-repeat="chap in champions">
         <a href="#/champ/{{chap.name}}"> <img class="img-responsive" src="img/champions/{{chap.imageS}}" alt="Not Found"
                                               style="float:left;margin:2px;border-width:0"/> </a>
@@ -34,6 +34,8 @@
         Difficulty<div class="progress">
             <div class="progress-bar" role="progressbar" style="width: {{champ.difficulty}}%;" aria-valuenow="{{champ.difficulty}}" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
+        <br>
+        <br>
 
         <!-- Sorts -->
         <div class="sort row" style="align-content: center" class="col-sm-2">

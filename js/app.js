@@ -23,6 +23,11 @@ app.config([
                 {
                     templateUrl: 'partials/tournament.html'
                 })
+            .when('/maps/:msg',
+                {
+                    templateUrl: 'partials/maps.html',
+                    controller: "searchMap"
+                })
             .otherwise(
                 {
                     redirectTo: '/welcome'
@@ -30,7 +35,7 @@ app.config([
     }
 ]);
 
-app.controller('storeController', [
+app.controller('champController', [
     '$http',
     function ($http) {
         var store = this;
@@ -39,6 +44,18 @@ app.controller('storeController', [
             store.products = data;
             console.log(data);
         });
+    },
+]);
+
+app.controller('mapController', [
+    '$http',
+    function ($http) {
+        var store = this;
+        console.log(store.cartes);
+        $http.get('datas/maps.json').success(function (data) {
+            store.cartes = data;
+            console.log(data);
+        })
     }
 ]);
 
@@ -55,42 +72,23 @@ app.controller("searchChamp", [
             console.log($scope.champions);
             console.log($scope.champ);
         });
+    },
+]);
+
+app.controller("searchMap", [
+    '$routeParams', '$scope', '$http',
+    function ($routeParams, $scope, $http) {
+        $http.get('datas/maps.json').success(function (data) {
+            angular.forEach(data, function (value, key) {
+                if (value.name === $routeParams.msg) {
+                    $scope.carte = value;
+                }
+            });
+            $scope.cartes = data;
+            console.log($scope.cartes);
+            console.log($scope.carte);
+        });
     }
 ]);
 
 
-/*
-var info = document.getElementById("info");
-var show0 = info.getAttribute("data-defense");
-var show1 = info.getAttribute("data-attack");
-var show2 = info.getAttribute("data-power");
-var show3 = info.getAttribute("data-difficulty");
-
-
-google.charts.load('current', {'packages':['bar']});
-google.charts.setOnLoadCallback(drawStuff);
-
-function drawStuff() {
-    var data = new google.visualization.arrayToDataTable([
-        ['Name', 'Percentage'],
-        ["Defense", info.setAttribute("data-defense", show0)],
-        ["Attack", info.setAttribute("data-attack", show1)],
-        ["Power", info.setAttribute("data-power", show2)],
-        ["Difficulty", info.setAttribute("data-difficulty", show3)]
-    ]);
-
-    var options = {
-        bars: 'horizontal', // Required for Material Bar Charts.
-        axes: {
-            x: {
-                0: { side: 'top', label: 'Percentage'} // Top x-axis.
-            }
-        },
-        bar: { groupWidth: "100%" },
-        tooltip: {isHtml: true}
-    };
-
-    var chart = new google.charts.Bar(document.getElementById('info'));
-    chart.draw(data, options);
-};
-*/
