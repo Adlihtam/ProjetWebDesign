@@ -10,6 +10,7 @@
     background-size : cover;
     color:#000;
     padding-bottom: 250px;
+
 }
 
 #menu{
@@ -32,6 +33,7 @@
     margin-top: 50px;
     border: 2px outset #777777;
     padding-left: 0px;
+    margin-bottom: 50px;
     color: black;
 }
 
