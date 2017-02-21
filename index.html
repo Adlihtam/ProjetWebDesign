@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>League of Fun </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="vendor/angular/angular.js"/>
     </script/>
     <script type="text/javascript" src="vendor/angular/angular-route.js"/>
@@ -11,21 +12,28 @@
     <link rel="stylesheet" type="text/css" href="css/test.css"/>
     <script type="text/javascript" src="js/app.js"/>
     </script/>
+
 </head>
 <!-- >
 <!-- Logo
 <section id="logo"></section>-->
-<a href="#/welcome"> <img class="img-responsive" src="img/logo.png" alt="Not Found"
-                                      style="background-position: center 40%; background-size: cover; zoom: 1.5;"/> </a>
+<a href="#/welcome" ng-click="select.selectTab(0)"> <img class="img-responsive" src="img/logo.png" alt="Not Found"
+                                                         style="background-position: center 40%; background-size: cover; zoom: 1.5;"/>
+</a>
 <!-- Menu -->
-<section id="menu">
+<section id="menu" ng-controller="selectController as select">
     <nav>
-        <a href="#/champ/Aatrox" class="col-sm-3 tab"> Champ </a>
-        <a href="#/item" class="col-sm-3 tab"> Item </a>
-        <a href="#/maps/La Faille de l'Invocateur" class="col-sm-3 tab"> Carte </a>
-        <a href="#tournament" class="col-sm-3 tab"> Tournoi </a>
+        <a href="#/champ/Aatrox" ng-click="select.selectTab(1)" ng-class="{tabSelect:select.isSelected(1)}"
+           class="col-sm-3 tab"> Champ </a>
+        <a href="#/item" ng-click="select.selectTab(2)" ng-class="{tabSelect:select.isSelected(2)}"
+           class="col-sm-3 tab"> Item </a>
+        <a href="#/maps/La Faille de l'Invocateur" ng-click="select.selectTab(3)"
+           ng-class="{tabSelect:select.isSelected(3)}" class="col-sm-3 tab"> Carte </a>
+        <a href="#tournament" ng-click="select.selectTab(4)" ng-class="{tabSelect:select.isSelected(4)}"
+           class="col-sm-3 tab"> Tournoi </a>
     </nav>
 </section>
 <ng-view></ng-view>
 </body>
+
 </html>

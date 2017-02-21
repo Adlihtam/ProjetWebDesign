@@ -22,7 +22,8 @@ app.config([
                 })
             .when('/tournament',
                 {
-                    templateUrl: 'partials/tournament.html'
+                    templateUrl: 'partials/tournament.html',
+                    controller: "tournamentController"
                 })
             .when('/maps/:msg',
                 {
@@ -36,42 +37,65 @@ app.config([
     }
 ]);
 
+//Permet de montrer l'onglet selectionné
+app.controller('selectController', function () {
+    var tab = 0;
+    this.selectTab = function (tab_id) {
+        tab = tab_id;
+    };
+    this.isSelected = function (tab_id) {
+        return tab === tab_id;
+    };
+});
+
+//Récupère toutes les données sur les champions
 app.controller('champController', [
     '$http',
     function ($http) {
         var store = this;
-        console.log(store.products);
         $http.get('datas/champions.json').success(function (data) {
             store.products = data;
-            console.log(data);
         });
-    },
+    }
 ]);
 
+//Récupère toutes les données sur les map
 app.controller('mapController', [
     '$http',
     function ($http) {
         var store = this;
-        console.log(store.cartes);
         $http.get('datas/maps.json').success(function (data) {
             store.cartes = data;
-            console.log(data);
         })
     }
 ]);
 
+//Récupère toutes les données sur les tournois
+app.controller("tournamentController",[
+    '$http',
+    function ($http) {
+        var store = this;
+        $http.get('').success(function (data) {
+            store.tournament = data;
+            console.log('hoi');
+            console.log(data);
+        });
+
+    }
+]);
+
+//Récupère toutes les données sur les champions bannis
 app.controller('playedbannedController', [
     '$http',
     function ($http) {
         var store = this;
-        console.log(store.playBan);
         $http.get('datas/PlayedAndBanned.json').success(function (data) {
             store.playBan = data;
-            console.log(data);
         })
     }
-    ])
+]);
 
+//Récupère les données d'un champion en particulier
 app.controller("searchChamp", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
@@ -82,12 +106,11 @@ app.controller("searchChamp", [
                 }
             });
             $scope.champions = data;
-            console.log($scope.champions);
-            console.log($scope.champ);
         });
     },
 ]);
 
+//Récupère les données d'une map en particulier
 app.controller("searchMap", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
@@ -98,8 +121,6 @@ app.controller("searchMap", [
                 }
             });
             $scope.cartes = data;
-            console.log($scope.cartes);
-            console.log($scope.carte);
         });
     }
 ]);
@@ -114,10 +135,10 @@ app.controller("searchPlayBan", [
                 }
             });
             $scope.playBans = data;
-            console.log($scope.playBans);
-            console.log($scope.playBan);
         });
     }
 ]);
+
+
 
 
