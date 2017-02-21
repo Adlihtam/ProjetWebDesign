@@ -8,7 +8,8 @@ app.config([
         $routeProvider
             .when('/welcome',
                 {
-                    templateUrl: 'partials/welcome.html'
+                    templateUrl: 'partials/welcome.html',
+                    controller: "searchPlayBan"
                 })
             .when('/champ/:msg',
                 {
@@ -59,6 +60,18 @@ app.controller('mapController', [
     }
 ]);
 
+app.controller('playedbannedController', [
+    '$http',
+    function ($http) {
+        var store = this;
+        console.log(store.playBan);
+        $http.get('datas/PlayedAndBanned.json').success(function (data) {
+            store.playBan = data;
+            console.log(data);
+        })
+    }
+    ])
+
 app.controller("searchChamp", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
@@ -87,6 +100,22 @@ app.controller("searchMap", [
             $scope.cartes = data;
             console.log($scope.cartes);
             console.log($scope.carte);
+        });
+    }
+]);
+
+app.controller("searchPlayBan", [
+    '$routeParams', '$scope', '$http',
+    function ($routeParams, $scope, $http) {
+        $http.get('datas/PlayedAndBanned.json').success(function (data) {
+            angular.forEach(data, function (value, key) {
+                if (value.name === $routeParams.msg) {
+                    $scope.playBan = value;
+                }
+            });
+            $scope.playBans = data;
+            console.log($scope.playBans);
+            console.log($scope.playBan);
         });
     }
 ]);

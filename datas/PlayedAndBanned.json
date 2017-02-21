@@ -1,0 +1,29 @@
+[
+  {
+    "name" : "Champions les plus joués",
+    "champ1" : "Jhin",
+    "stat1" : "39,0%",
+    "champ2" : "Lee Sin",
+    "stat2" : "34,1%",
+    "champ3" : "Thresh",
+    "stat3" : "29,4%",
+    "champ4" : "Varus",
+    "stat4" : "28,1%",
+    "champ5" : "Ezreal",
+    "stat5" : "23,7%"
+  },
+
+  {
+    "name" : "Champions les plus bannis",
+    "champ1" : "Le Blanc",
+    "stat1" : "53,2%",
+    "champ2" : "Katarina",
+    "stat2" : "53,0%",
+    "champ3" : "Camille",
+    "stat3" : "52,2%",
+    "champ4" : "Yasuo",
+    "stat4" : "36,9%",
+    "champ5" : "Zed",
+    "stat5" : "36,5%"
+  }
+]
