@@ -1,1 +1,12 @@
-OBJETS
+<section class="">
+    <table style="width: 100%">
+    <tr ng-repeat="objetlol in store.objets | limitTo:store.listLimit | orderBy: '-name'" >
+        <th><img src="{{objetlol.image}}" alt=" Not Found "></th>
+        <th>{{objetlol.name}}</th>
+        <th>{{objetlol.description}}</th>
+        <th>{{objetlol.tags}}</th>
+        <th>{{objetlol.total}}</th>
+        <th>{{objetlol.sell}}</th>
+    </tr>
+</table>
+</section>

@@ -18,7 +18,8 @@ app.config([
                 })
             .when('/item',
                 {
-                    templateUrl: 'partials/item.html'
+                    templateUrl: 'partials/item.html',
+                    controller: "searchItem"
                 })
             .when('/tournament',
                 {
@@ -70,6 +71,18 @@ app.controller('mapController', [
     }
 ]);
 
+app.controller('itemController', [
+    '$http',
+    function ($http) {
+        var store = this;
+        console.log(store.objet);
+        $http.get('datas/Items.json').success(function (data) {
+            store.objet = data;
+            console.log(data);
+        })
+    }
+])
+
 //Récupère toutes les données sur les tournois
 app.controller("tournamentController",[
     '$http',
@@ -79,8 +92,7 @@ app.controller("tournamentController",[
             store.tournament = data;
             console.log('hoi');
             console.log(data);
-        });
-
+        })
     }
 ]);
 
@@ -93,7 +105,7 @@ app.controller('playedbannedController', [
             store.playBan = data;
         })
     }
-]);
+    ]);
 
 //Récupère les données d'un champion en particulier
 app.controller("searchChamp", [
@@ -139,6 +151,20 @@ app.controller("searchPlayBan", [
     }
 ]);
 
-
+app.controller("searchItem", [
+    '$routeParams', '$scope', '$http',
+    function ($routeParams, $scope, $http) {
+        $http.get('datas/Items.json').success(function (data) {
+            angular.forEach(data, function (value, key) {
+                if (value.name === $routeParams.msg) {
+                    $scope.objet = value;
+                }
+            });
+            $scope.objets = data;
+            console.log($scope.objets);
+            console.log($scope.objet);
+        });
+    }
+]);
 
 
