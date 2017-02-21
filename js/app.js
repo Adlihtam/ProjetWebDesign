@@ -18,7 +18,8 @@ app.config([
                 })
             .when('/item',
                 {
-                    templateUrl: 'partials/item.html'
+                    templateUrl: 'partials/item.html',
+                    controller: "searchItem"
                 })
             .when('/tournament',
                 {
@@ -60,13 +61,13 @@ app.controller('mapController', [
     }
 ]);
 
-app.controller('playedbannedController', [
+app.controller('itemController', [
     '$http',
     function ($http) {
         var store = this;
-        console.log(store.playBan);
-        $http.get('datas/PlayedAndBanned.json').success(function (data) {
-            store.playBan = data;
+        console.log(store.objet);
+        $http.get('datas/Items.json').success(function (data) {
+            store.objet = data;
             console.log(data);
         })
     }
@@ -104,18 +105,18 @@ app.controller("searchMap", [
     }
 ]);
 
-app.controller("searchPlayBan", [
+app.controller("searchItem", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
-        $http.get('datas/PlayedAndBanned.json').success(function (data) {
+        $http.get('datas/Items.json').success(function (data) {
             angular.forEach(data, function (value, key) {
                 if (value.name === $routeParams.msg) {
-                    $scope.playBan = value;
+                    $scope.objet = value;
                 }
             });
-            $scope.playBans = data;
-            console.log($scope.playBans);
-            console.log($scope.playBan);
+            $scope.objets = data;
+            console.log($scope.objets);
+            console.log($scope.objet);
         });
     }
 ]);
