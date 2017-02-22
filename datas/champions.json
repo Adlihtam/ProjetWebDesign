@@ -3138,7 +3138,7 @@
     "type"        : "Mage",
     "defense"     : 20,
     "attack"      : 20,
-    "power"       : 10,
+    "power"       : 100,
     "difficulty"  : 70,
     "NameP"       : "Pouvoir Maléfique Phénoménal",
     "passive"     : "PASSIVE :  Les compétences de Veigar génèrent 1 effet Pouvoir Maléfique Phénoménal pour chaque champion ennemi touché. Quand il tue un champion ennemi ou assiste un champion allié, Veigar génère 5 effets Pouvoir Maléfique Phénoménal.\nVeigar augmente sa puissance de 1 pour chaque effet Pouvoir Maléfique Phénoménal.",

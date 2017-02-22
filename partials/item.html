@@ -1,12 +1,20 @@
-<section class="">
-    <table style="width: 100%">
-    <tr ng-repeat="objetlol in store.objets | limitTo:store.listLimit | orderBy: '-name'" >
-        <th><img src="{{objetlol.image}}" alt=" Not Found "></th>
-        <th>{{objetlol.name}}</th>
-        <th>{{objetlol.description}}</th>
-        <th>{{objetlol.tags}}</th>
-        <th>{{objetlol.total}}</th>
-        <th>{{objetlol.sell}}</th>
+<section class="" style="color: black; margin-top: 2%" ng-app="myCtrl">
+    Recherche : <input auto-complete ui-items="objets" type="text" ng-model="selected" >
+
+    <table class="table-responsive col-sm-offset-1" style="width: 85%; margin-top: 2%">
+        <tr style="color: darkred;">
+            <th style="text-align: center">Image</th>
+            <th style="text-align: center">Nom d'objet</th>
+            <th style="text-align: center">Description</th>
+            <th style="text-align: center">Prix d'achat</th>
+            <th style="text-align: center">Prix de vente</th>
+        </tr>
+    <tr ng-repeat="objet in objets | limitTo:store.listLimit | orderBy: 'name' | filter: selected" >
+        <th><img class="img-responsive" ng-src="{{objet.image}}" alt=" Not Found "></th>
+        <th>{{objet.name}}</th>
+        <th>{{objet.description}}</th>
+        <th>{{objet.total}}</th>
+        <th>{{objet.sell}}</th>
     </tr>
 </table>
 </section>

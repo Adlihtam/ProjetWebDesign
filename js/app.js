@@ -9,7 +9,6 @@ app.config([
             .when('/welcome',
                 {
                     templateUrl: 'partials/welcome.html',
-                    controller: "searchPlayBan"
                 })
             .when('/champ/:msg',
                 {
@@ -71,13 +70,13 @@ app.controller('mapController', [
     }
 ]);
 
+//Récupère toutes les données sur les objets
 app.controller('itemController', [
     '$http',
     function ($http) {
         var store = this;
-        console.log(store.objet);
         $http.get('datas/Items.json').success(function (data) {
-            store.objet = data;
+            store.objets = data;
             console.log(data);
         })
     }
@@ -95,17 +94,6 @@ app.controller("tournamentController",[
         })
     }
 ]);
-
-//Récupère toutes les données sur les champions bannis
-app.controller('playedbannedController', [
-    '$http',
-    function ($http) {
-        var store = this;
-        $http.get('datas/PlayedAndBanned.json').success(function (data) {
-            store.playBan = data;
-        })
-    }
-    ]);
 
 //Récupère les données d'un champion en particulier
 app.controller("searchChamp", [
@@ -137,20 +125,7 @@ app.controller("searchMap", [
     }
 ]);
 
-app.controller("searchPlayBan", [
-    '$routeParams', '$scope', '$http',
-    function ($routeParams, $scope, $http) {
-        $http.get('datas/PlayedAndBanned.json').success(function (data) {
-            angular.forEach(data, function (value, key) {
-                if (value.name === $routeParams.msg) {
-                    $scope.playBan = value;
-                }
-            });
-            $scope.playBans = data;
-        });
-    }
-]);
-
+//Récupère les données d'un objet en particulier
 app.controller("searchItem", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
@@ -167,4 +142,19 @@ app.controller("searchItem", [
     }
 ]);
 
+
+angular.module('myCtrl', []).directive('autoComplete',
+function($timeOut) {
+    return function(scope, iElement, iAttrs) {
+        iElement.autoComplete({
+            source: scope[iAttrs.uiItems],
+            select: function() {
+                $timeOut(function () {
+                    iElement.trigger('input');
+                }, 0);
+            }
+        });
+    }
+}
+)
 

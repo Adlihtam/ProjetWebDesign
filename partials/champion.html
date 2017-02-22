@@ -1,6 +1,16 @@
+<!-- Choix de type de champion -->
+<div ng-app="myApp" ng-app="myCtrl"></div>
+<button type="button" class="btn btn-default btn-sm" auto-complete ui-items="champions" ng-model="selected" onclick="">Tous</button>
+<button type="button" class="btn btn-default btn-sm">Assassin</button>
+<button type="button" class="btn btn-default btn-sm">Combattant</button>
+<button type="button" class="btn btn-default btn-sm">Mage</button>
+<button type="button" class="btn btn-default btn-sm">Support</button>
+<button type="button" class="btn btn-default btn-sm">Tank</button>
+<button type="button" class="btn btn-default btn-sm">Tireur</button>
+
 <!-- Menu Champ -->
-<section class="">
-    <span ng-repeat="chap in champions">
+<section class="" >
+    <span ng-repeat="chap in champions | filter: chap.type">
         <a href="#/champ/{{chap.name}}"> <img class="img-responsive" ng-src="img/champions/{{chap.imageS}}"
                                               alt="Not Found"
                                               style="float:left;margin:2px;border-width:0"/> </a>
@@ -84,6 +94,6 @@
 
     <div>Histoire de {{champ.name}}</div>
 
-    <IFRAME src="{{champ.history}}" class="col-sm-12" marginwidth="" height=400 scrolling=auto frameborder=0></IFRAME>
+    <IFRAME src="{{champ.history}}" class="col-sm-12" marginwidth="" height=400 scrolling=auto frameborder=0 ></IFRAME>
 
 </section>
