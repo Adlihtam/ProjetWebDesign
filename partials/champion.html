@@ -1,16 +1,29 @@
-<!-- Choix de type de champion -->
-<div ng-app="myApp" ng-app="myCtrl"></div>
-<button type="button" class="btn btn-default btn-sm" auto-complete ui-items="champions" ng-model="selected" onclick="">Tous</button>
-<button type="button" class="btn btn-default btn-sm">Assassin</button>
-<button type="button" class="btn btn-default btn-sm">Combattant</button>
-<button type="button" class="btn btn-default btn-sm">Mage</button>
-<button type="button" class="btn btn-default btn-sm">Support</button>
-<button type="button" class="btn btn-default btn-sm">Tank</button>
-<button type="button" class="btn btn-default btn-sm">Tireur</button>
+<!-- Choix de type de champion
+<div class="" id="filters">
+    <button type="button" id="myBtn" onclick="myFunction()" value="*">Tous</button>
+    <button type="button" id="myBtn1" onclick="myFunction()" value="Assassin">Assassin</button>
+    <button type="button" id="myBtn2" onclick="myFunction()" value="Combattant">Combattant</button>
+    <button type="button" id="myBtn3" onclick="myFunction()" value="Mage">Mage</button>
+    <button type="button" id="myBtn4" onclick="myFunction()" value="Support">Support</button>
+    <button type="button" id="myBtn5" onclick="myFunction()" value="Tank">Tank</button>
+    <button type="button" id="myBtn6" onclick="myFunction()" value="Tireur">Tireur</button>
+</div>-->
+
+
 
 <!-- Menu Champ -->
-<section class="" >
-    <span ng-repeat="chap in champions | filter: chap.type">
+<!--
+<section >
+    <span ng-repeat="chap in champions">
+    <iframe src="#/champ/:msg" class="col-sm-12" marginwidth="" height=400 scrolling=auto frameborder=0><a href="#/champ/{{chap.name}}">
+        <img class="img-responsive" ng-src="img/champions/{{chap.imageS}}"
+             alt="Not Found"
+             style="float:left;margin:2px;border-width:0"/>
+    </a></iframe></span>
+</section>
+-->
+<section class="scrollmenu">
+    <span id="demo" ng-repeat="chap in champions" >
         <a href="#/champ/{{chap.name}}"> <img class="img-responsive" ng-src="img/champions/{{chap.imageS}}"
                                               alt="Not Found"
                                               style="float:left;margin:2px;border-width:0"/> </a>

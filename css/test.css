@@ -81,5 +81,34 @@
      border-collapse: collapse;
  }
 
+ /*
+ mise en page des boutons filtres des champions
+  */
+ .button {
+
+ }
+
+ .button:active,
+ .button.is-checked {
+     background-color: #777777;
+ }
+
+/* permet d'avoir les champions en barre horizontale */
+ section.scrollmenu {
+     background-color: #444444;
+     overflow: auto;
+     white-space: nowrap;
+ }
+
+ section.scrollmenu a {
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ section.scrollmenu a:hover {
+     background-color: #d4d4d4;
+ }
+
+
 
 
