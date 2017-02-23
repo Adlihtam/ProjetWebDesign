@@ -112,6 +112,22 @@
      zoom: 1.5;
  }
 
+#map{
+    height:300px;
+    width: 50%;
+    margin: 20px;
+}
 
+#listeTournois{
+    text-align: left;
+    margin:20px;
+    color: black;
+}
 
+#descripTournois{
+    margin-top: 50px;
+    border: 2px outset #777777;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
 

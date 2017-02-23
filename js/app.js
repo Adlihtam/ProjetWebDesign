@@ -8,7 +8,7 @@ app.config([
         $routeProvider
             .when('/welcome',
                 {
-                    templateUrl: 'partials/welcome.html',
+                    templateUrl: 'partials/welcome.html'
                 })
             .when('/champ/:msg',
                 {
@@ -75,23 +75,21 @@ app.controller('itemController', [
     '$http',
     function ($http) {
         var store = this;
-        $http.get('datas/Items.json').success(function (data) {
+        $http.get('datas/items.json').success(function (data) {
             store.objets = data;
-            console.log(data);
         })
     }
-])
+]);
 
 //Récupère toutes les données sur les tournois
 app.controller("tournamentController",[
-    '$http',
-    function ($http) {
-        var store = this;
-        $http.get('').success(function (data) {
-            store.tournament = data;
-            console.log('hoi');
+    '$scope','$http',
+    function ($scope,$http) {
+        $http.get('datas/tournois.json').success(function (data) {
             console.log(data);
-        })
+            $scope.tournois = data;
+            console.log($scope.tournois);
+        });
     }
 ]);
 
@@ -100,14 +98,14 @@ app.controller("searchChamp", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
         $http.get('datas/champions.json').success(function (data) {
-            angular.forEach(data, function (value, key) {
+            angular.forEach(data, function (value) {
                 if (value.name === $routeParams.msg) {
                     $scope.champ = value;
                 }
             });
             $scope.champions = data;
         });
-    },
+    }
 ]);
 
 //Récupère les données d'une map en particulier
@@ -115,7 +113,7 @@ app.controller("searchMap", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
         $http.get('datas/maps.json').success(function (data) {
-            angular.forEach(data, function (value, key) {
+            angular.forEach(data, function (value) {
                 if (value.name === $routeParams.msg) {
                     $scope.carte = value;
                 }
@@ -130,14 +128,12 @@ app.controller("searchItem", [
     '$routeParams', '$scope', '$http',
     function ($routeParams, $scope, $http) {
         $http.get('datas/Items.json').success(function (data) {
-            angular.forEach(data, function (value, key) {
+            angular.forEach(data, function (value) {
                 if (value.name === $routeParams.msg) {
                     $scope.objet = value;
                 }
             });
             $scope.objets = data;
-            console.log($scope.objets);
-            console.log($scope.objet);
         });
     }
 ]);
