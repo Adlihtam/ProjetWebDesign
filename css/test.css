@@ -114,13 +114,17 @@
 
 #map{
     height:300px;
-    width: 50%;
+    width: 60%;
     margin: 20px;
 }
 
 #listeTournois{
-    text-align: left;
+    text-align: center;
     margin:20px;
+    color: black;
+}
+
+.liTour{
     color: black;
 }
 

@@ -1,11 +1,29 @@
 [
   {
-    "name" : "NA LCS"
+    "name" : "NA LCS",
+    "lieu" : "12312 Olympic Boulevard",
+    "altitude" : "36.114647",
+    "longitude" : "-115.172813",
+    "nbequipe" : "10",
+    "date" : "Printemps / Eté",
+    "description" : "slxsokdoskdokdkzokozd"
   },
   {
-    "name" : "EU LCS"
+    "name" : "EU LCS",
+    "lieu" : "20D Am Studio, 12489 Berlin",
+    "altitude" : "52.5200",
+    "longitude" : "13.4050",
+    "nbequipe" : "10",
+    "date" : "Printemps / Eté",
+    "description" : "bvfhbvhfbbfvbfv"
   },
   {
-    "name" : "NA Challenger"
+    "name" : "NA Challenger",
+    "lieu" : "12312 Olympic Boulevard",
+    "altitude" : "34.0314055",
+    "longitude" : "",
+    "nbequipe" : "6",
+    "date" : "Printemps / Eté",
+    "description" : "nvjfnvjfnvjfnvjfnvjnv"
   }
 ]

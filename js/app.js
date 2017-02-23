@@ -20,7 +20,7 @@ app.config([
                     templateUrl: 'partials/item.html',
                     controller: "searchItem"
                 })
-            .when('/tournament',
+            .when('/tournament/:msg',
                 {
                     templateUrl: 'partials/tournament.html',
                     controller: "tournamentController"
@@ -83,13 +83,21 @@ app.controller('itemController', [
 
 //Récupère toutes les données sur les tournois
 app.controller("tournamentController",[
-    '$scope','$http',
-    function ($scope,$http) {
+    '$routeParams','$scope','$http',
+    function ($routeParams,$scope,$http) {
         $http.get('datas/tournois.json').success(function (data) {
-            console.log(data);
+            angular.forEach(data, function (value) {
+                if (value.name === $routeParams.msg) {
+                    $scope.tour = value;
+                }
+            });
             $scope.tournois = data;
             console.log($scope.tournois);
+            console.log($scope.tour);
         });
+
+
+
     }
 ]);
 
