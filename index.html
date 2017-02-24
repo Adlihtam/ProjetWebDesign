@@ -9,16 +9,16 @@
     <script type="text/javascript" src="vendor/angular/angular-route.js"/>
     </script/>
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/test.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript" src="js/app.js"/>
     </script/>
 
 </head>
-<!-- Logo -->
+<!-- Affichage du Logo avec lien vers la page d'accueil -->
 <a href="#/welcome" ng-click="select.selectTab(0)"> <img class="img-responsive" src="img/logo.png" alt="Not Found"
                                                          style="background-position: center 40%; background-sizse: cover; zoom: 1.5;"/>
 </a>
-<!-- Menu -->
+<!-- Affichage du Menu avec des liens pour 4 onglets différents -->
 <section id="menu" ng-controller="selectController as select">
     <nav>
         <a href="#/champ/Aatrox" ng-click="select.selectTab(1)" ng-class="{tabSelect:select.isSelected(1)}"
@@ -32,8 +32,9 @@
     </nav>
 </section>
 <ng-view>
-
 </ng-view>
+
+<!-- footer possédant les noms et infos de ce site -->
 <section class="col-sm-12" id="footer">FAVIER Lucie THOMAS Mathilda Filière TIC Promo 2018 Projet Web Design </section>
 
 </body>

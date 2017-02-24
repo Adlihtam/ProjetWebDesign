@@ -79,15 +79,13 @@ p {
     box-shadow: none;
 }
 
+/* Mise en page du tableau pour les item */
 table#t01 th {
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
 }
 
-/*
-mise en page des boutons filtres des champions
- */
 .button {
 
 }
@@ -97,7 +95,7 @@ mise en page des boutons filtres des champions
     background-color: #777777;
 }
 
-/* permet d'avoir les champions en barre horizontale */
+/* permet d'avoir les champions en barre horizontale déroulante */
 section.scrollmenu {
     background-color: #999999;
     overflow: auto;
@@ -110,7 +108,7 @@ section.scrollmenu a {
     display: inline-block;
     text-decoration: none;
 }
-
+/* Zoom sur l'image du champion en passant dessus + cadre blanc l'entourant */
 section.scrollmenu a:hover {
     background-color: #d4d4d4;
     zoom: 1.5;
@@ -139,6 +137,7 @@ section.scrollmenu a:hover {
     margin-bottom: 5%;
 }
 
+/* Mise en page des boutons pour les cartes */
 .button1 {
 
     font-size: 28px;
@@ -158,11 +157,13 @@ section.scrollmenu a:hover {
 
 }
 
+/* Mise en page du footer */
 #footer {
 
+    position: fixed;
     background-color: #444444;
     color: #999999;
-    margin-bottom: 0;
+    bottom: 0;
     width: 100%;
 
 }
