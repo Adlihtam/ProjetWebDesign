@@ -92,8 +92,6 @@ app.controller("tournamentController",[
                 }
             });
             $scope.tournois = data;
-            console.log($scope.tournois);
-            console.log($scope.tour);
         });
 
 
