@@ -162,20 +162,9 @@ section.scrollmenu a:hover {
 
     background-color: #444444;
     color: #999999;
-    position: absolute;
     margin-bottom: 0;
     width: 100%;
 
-}
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -20px;
-}
-
-.footer,
-.push{
-    height: 20px;
 }
 
 
