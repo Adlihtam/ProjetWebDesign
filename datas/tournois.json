@@ -6,7 +6,7 @@
     "longitude" : "-115.172813",
     "nbequipe" : "10",
     "date" : "Printemps / Eté",
-    "description" : "slxsokdoskdokdkzokozd"
+    "description" : "The North America League of Legends Championship Series (NA LCS) is the preeminent League of Legends esports league in North America. The LCS is comprised of 10 teams facing every other team twice over the course of the season, for a total of 18 matches each. Matches are played in a Best of 3 format, with each team playing once per day. The competition stretches across two splits, Spring and Summer. \n Tiebreakers:If two teams have the same record, ties will be broken by Head to Head recordIf Head to Head records are identical, winning percentage based on total games played will be usedIf still tied, a tiebreaker match will be playedPlayoff \n Format:LCS playoffs are comprised of six teams in a seeded, single elimination tournament. All matches are Best of 5 format. A third/fourth place match is played."
   },
   {
     "name" : "EU LCS",
@@ -15,7 +15,7 @@
     "longitude" : "13.4050",
     "nbequipe" : "10",
     "date" : "Printemps / Eté",
-    "description" : "bvfhbvhfbbfvbfv"
+    "description" : "The League of Legends Championship Series (LCS) is the preeminent League of Legends esports league in North America and Europe. The EU LCS is comprised of 10 teams drafted into two groups of 5 teams. Each team plays the teams in their group twice, and the teams in the opposing group once, for a total of 13 matches per split. The competition stretches across two splits, Spring and Summer. Starting with the 2017 EU LCS Spring Split, matches will be played in a Best of 3 format. Read more about the format changes here. Teams were drafted into their groups via a special selection process. Based on their championship points totals during the 2016 EU LCS season, G2 Esports and H2K took the first and second seed at the head of each group. Groups were then selected via snake draft, similar to a Nemesis draft. Instead of drafting teams into their own group, the team picking chose a team to go into the opposing group rather than their own. The following graphic illustrates the process."
   },
   {
     "name" : "NA Challenger",
@@ -24,6 +24,18 @@
     "longitude" : "-118.4592424",
     "nbequipe" : "6",
     "date" : "Printemps / Eté",
-    "description" : "nvjfnvjfnvjfnvjfnvjnv"
+    "description" : "The Challenger Series (CS) is the birthplace of future esports champions in North America and Europe. As the only path for players to join the premier LCS, competition in the CS is fierce. The Challenger series is comprised of six teams facing each other team in a Best of 2 round robin format."
+  },
+  {
+    "name" : "EU Challenger",
+    "nbequipe" : "6",
+    "date" : "Regular Season Split",
+    "description" : "The Challenger Series (CS) is the birthplace of future esports champions and culmination of European regional competition. As the only path for players to join the premier LCS, competition in the CS is fierce. The Challenger series is comprised of six teams facing each other team in a Best of 2 round robin format. The EU CS airs every Sunday at 15:00 Berlin Time"
+  },
+  {
+    "name" : "World Championship",
+    "nbequipe" : "16",
+    "date" : "September - December ",
+    "description" :"The 2016 League of Legends World Championship, more commonly called Worlds, is an international esports event that takes place over five weeks of competitive play with the top 16 teams from around the world.The World Championship travels to different host regions, and this year the event will take place in North America."
   }
 ]

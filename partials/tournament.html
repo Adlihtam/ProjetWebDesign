@@ -13,7 +13,8 @@
     <h1 class="col-sm-12" style="text-align: center">{{tour.name}}</h1>
     <div class="col-sm-6" style="text-align: center">Nombre d'équipe : {{tour.nbequipe}}</div>
     <div class="col-sm-6" style="text-align: center">Période : {{tour.date}}</div>
-    <div>{{tour.description}}</div>
+    </br>
+    <div class="col-sm-12">{{tour.description}}</div>
 </section>
 
 <script>
@@ -33,6 +34,14 @@
         });
         new google.maps.Marker({
             position: {lat:34.0314055,lng: -118.4592424},
+            map: map,
+        });
+        new google.maps.Marker({
+            position: {lat: 50.9333333,lng: 6.95},
+            map: map,
+        });
+        new google.maps.Marker({
+            position: {lat: 54.525961,lng: -105.255119},
             map: map,
         });
     }
