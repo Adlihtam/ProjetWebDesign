@@ -1,31 +1,33 @@
- body{
-	color:#999999;
+body {
+    color: #999999;
     background-color: #cccccc;
-     font-emphasize-style: Georgia;
- }
+    font-emphasize-style: Georgia;
+    height: 100%;
+    margin:0;
+}
 
-#menu{
+#menu {
     background-color: #444444;
     padding-bottom: 30px;
-    padding-top:10px;
+    padding-top: 10px;
     text-align: center;
 }
 
-.tab{
-    color:#ffffff;
+.tab {
+    color: #ffffff;
 }
 
-.tabSelect{
+.tabSelect {
     color: #000000;
 
 }
 
-.block{
+.block {
     border: 1px solid black;
-    color:black;
+    color: black;
 }
 
-.champBlock{
+.champBlock {
     margin-top: 50px;
     border: 2px outset #777777;
     padding-left: 0px;
@@ -33,105 +35,147 @@
     color: black;
 }
 
- .info {
-     position: relative;
-     color: black;
-     text-decoration: none;
- }
- .info span {
-     display: none; /* On masque l'infobulle. */
- }
+.info {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
 
- .info:hover {
-     background: none; /* Correction d'un bug d'Internet Explorer. */
-     z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+.info span {
+    display: none; /* On masque l'infobulle. */
+}
 
-     cursor: pointer; /* On change le curseur par défaut par un curseur d'aide. */
- }
+.info:hover {
+    background: none; /* Correction d'un bug d'Internet Explorer. */
+    z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
 
- .info:hover span {
-     display: inline; /* On affiche l'infobulle. */
-     position: absolute;
-     height: auto;
-     width:400px;
+    cursor: pointer; /* On change le curseur par défaut par un curseur d'aide. */
+}
 
-     top: 0px; /* On positionne notre infobulle.*/
-     left: 0px;
+.info:hover span {
+    display: inline; /* On affiche l'infobulle. */
+    position: absolute;
+    height: auto;
+    width: 400px;
 
-     background: #d4d4d4;
+    top: 0px; /* On positionne notre infobulle.*/
+    left: 0px;
 
-     color: #000000;
-     padding: 3px;
-     border: 1px solid grey;
-     border-left: 4px solid grey;
- }
+    background: #d4d4d4;
 
- p {
-     text-align: center;
- }
+    color: #000000;
+    padding: 3px;
+    border: 1px solid grey;
+    border-left: 4px solid grey;
+}
 
- .progress{ /* redéfinition pour ne pas avoir le reste de la bar de progression */
-     background-color:#cccccc;
-     border:none;
-     box-shadow: none;
- }
+p {
+    text-align: center;
+}
 
- table#t01 {
-     border: 1px solid black;
-     border-collapse: collapse;
- }
+.progress { /* redéfinition pour ne pas avoir le reste de la bar de progression */
+    background-color: #cccccc;
+    border: none;
+    box-shadow: none;
+}
 
- /*
- mise en page des boutons filtres des champions
-  */
- .button {
+table#t01 th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
 
- }
+/*
+mise en page des boutons filtres des champions
+ */
+.button {
 
- .button:active,
- .button.is-checked {
-     background-color: #777777;
- }
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #777777;
+}
 
 /* permet d'avoir les champions en barre horizontale */
- section.scrollmenu {
-     background-color: #999999;
-     overflow: auto;
-     white-space: nowrap;
-     padding-top: 0.5%;
-     padding-bottom: 0.5%;
- }
+section.scrollmenu {
+    background-color: #999999;
+    overflow: auto;
+    white-space: nowrap;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
 
- section.scrollmenu a {
-     display: inline-block;
-     text-decoration: none;
- }
+section.scrollmenu a {
+    display: inline-block;
+    text-decoration: none;
+}
 
- section.scrollmenu a:hover {
-     background-color: #d4d4d4;
-     zoom: 1.5;
- }
+section.scrollmenu a:hover {
+    background-color: #d4d4d4;
+    zoom: 1.5;
+}
 
-#map{
-    height:300px;
+#map {
+    height: 300px;
     width: 60%;
     margin: 20px;
 }
 
-#listeTournois{
+#listeTournois {
     text-align: center;
-    margin:20px;
+    margin: 20px;
     color: black;
 }
 
-.liTour{
+.liTour {
     color: black;
 }
 
-#descripTournois{
+#descripTournois {
     margin-top: 50px;
     border: 2px outset #777777;
     padding-left: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
+
+.button1 {
+
+    font-size: 28px;
+    border-radius: 50%;
+    color: darkred;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100%;
+
+}
+
+.button1:hover {
+
+    background-color: dimgrey; /* Green */
+    color: white;
+
+}
+
+#footer {
+
+    background-color: #444444;
+    color: #999999;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -20px;
+}
+
+.footer,
+.push{
+    height: 20px;
+}
+
 
